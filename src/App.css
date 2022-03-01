@@ -1,0 +1,169 @@
+.logo {
+  min-width: 50px;
+  width: 60px;
+}
+.home{
+  background-image: url('https://image.shutterstock.com/image-photo/curry-gourmet-meals-india-600w-415403488.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.home h1{
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 70px;
+  padding-top: 90px;
+}
+.home h2{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.home button{
+  outline: none;
+  border: 2px solid rgb(26, 201, 157);
+background-color: rgb(26, 201, 157);
+border-radius: 5px;
+color: white;
+}
+
+.cart{
+  background-color: rgb(15, 15, 12);
+  color: aqua;
+  
+}
+.card-title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight: 800;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 3%;
+  color: rgb(2, 22, 21);
+
+}
+
+.dollar{
+color: red;
+}
+.pice{
+  color: rgb(197, 218, 9);
+}
+
+.remove{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(226, 43, 195);
+  background-color: rgb(10, 1, 5);
+  font-weight: bolder;
+  width: 50%;
+  margin-left: 28%;
+}
+
+.text{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(70, 39, 1);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.input-group {
+width: 37%;
+margin-left: 35%;
+}
+.btn-danger{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(43, 205, 226);
+  background-color: rgb(10, 1, 5);
+  font-weight: 800;
+  width: 35px;
+}
+.input-number{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(10, 30, 184);
+  background-color: rgb(199, 209, 195);
+  font-weight: bolder;
+  width: 35px;
+  border: none;
+}
+.btn-success{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(43, 205, 226);
+  background-color: rgb(10, 1, 5);
+  font-weight: 800;
+  width: 35px;
+}
+.food{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  padding-bottom: 10px;
+
+}
+.span{
+  color: white;
+  font-size: larger;
+}
+.cart-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+}
+.total-bill{
+  font-family:"monospace";
+  font-size:'50px';
+  font-weight:"600";
+  text-decoration: underline;
+  background-color: goldenrod;
+  
+  
+}
+.order-title{
+  font-family:"monospace";
+  font-size:'50px';
+  background-color: palevioletred;
+  padding:"10px 10px 10px 10px" ;
+  font-weight:"800";
+  color:"black"
+
+}
+.menu-title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: brown;
+  padding: 5px 5px 10px 10px;
+  background-color: aquamarine;
+  
+}
+.order-now{
+  width: 9%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 70%;
+}
+.grand{
+  color: black;
+ 
+}
+
+/* <div className='row' style={{marginTop:"40px"}}> 
+
+      {
+        productData.map((ele,i)=>(
+
+          <Product key={i} data={ele}/>
+
+        ))
+      }</div> */
